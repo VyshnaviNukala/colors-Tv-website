@@ -1,0 +1,91 @@
+.f1{
+	color: white;
+
+}
+.f2{
+	color: lightgrey;
+}
+.f3{
+	padding-left: 80px;
+	color: lightgrey;
+}
+.f1:hover{
+	color:deeppink;
+}
+.f2:hover{
+	color:deeppink;
+}
+img{
+	height:100px;
+	width: 100px;
+	margin-left: 100px;
+	padding-top: 10px;
+	margin-bottom:10px;
+
+}
+body{
+	background-color: linear-gradient(to right,#B43757 0%,#702963 50%);
+}
+.m1{
+background: linear-gradient(to right,#B43757 0%,#702963 50%);
+}
+.m2{
+	margin-top:0px;
+  height: 5px;
+  background-color: orange;
+ 
+}
+.sp{
+	color: orange;
+}
+.pop{
+	background: linear-gradient(to right,#B43757 0%,#702963 50%);
+	padding-bottom: 150px;
+
+}
+.icon{
+	color: deeppink;
+	
+
+}
+.v{
+	font-family:Arial-Rounded-MT-Bold;
+	color: white;
+	margin-left: 20px;
+	margin-top: 50px;
+	margin-bottom:30px;
+
+
+
+}
+.n{
+	color: orange;
+	font-size: 16px;
+}
+.figure{
+	overflow: hidden;
+
+}
+.image img {
+	display: block;
+	width: 100%;
+	height: auto;
+	cursor: pointer;
+	margin-left: 0px;
+
+}
+.image #zoom-In figure img {
+	transform: scale(1);
+	transition: 0.3s ease-in-out;
+}
+.image #zoom-In figure:hover img {
+	transform: scale(1.2);
+}
+figcaption{
+	color: white;
+}
+.f4{
+	height: 30px;
+   float: left;
+
+}
